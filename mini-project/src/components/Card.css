@@ -1,0 +1,106 @@
+.card {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-between;
+  box-shadow: 0px 4px 6px rgba(108, 105, 105, 0.797);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+}
+.card .top .brandLogo {
+  width: 30px;
+  height: 30px;
+}
+.card .top .brandLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 50%;
+}
+
+.card .top .save {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  gap: 3px;
+  border-radius: 8px;
+}
+
+.card .middle {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .middle .brandName {
+  display: flex;
+  align-items: baseline;
+}
+
+.card .middle .brandName .company {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card .middle .brandName .date {
+  font-size: 11px;
+  padding-left: 8px;
+  color: gray;
+}
+
+.card .middle .heading {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card .middle .jobroll {
+  padding-top: 4px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.card .middle .jobroll h3 {
+  font-weight: normal;
+  font-size: 12px;
+  background-color: #e9e9e9;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.card .bottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.23);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.card .bottom .paywithlocation {
+  font-size: 14px;
+}
+.card .bottom .paywithlocation .pay {
+  font-weight: bold;
+  color: #0d0d0d;
+}
+.card .bottom .paywithlocation .city {
+  font-size: 12px;
+  color: #625d5d;
+}
+
+.card .bottom button {
+  background-color: black;
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
