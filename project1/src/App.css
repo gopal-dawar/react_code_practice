@@ -1,0 +1,27 @@
+button {
+  padding: 8px 12px;
+  background-color: skyblue;
+  border: none;
+  outline: none;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+button:active {
+  transform: scale(130%);
+}
+p {
+  padding: 20px 30px;
+  font-size: 25px;
+  background-color: blanchedalmond;
+  width: fit-content;
+}
+
+input {
+  padding: 8px 12px;
+  margin-left: 12px;
+  outline: none;
+  border: 1px solid gray;
+}
